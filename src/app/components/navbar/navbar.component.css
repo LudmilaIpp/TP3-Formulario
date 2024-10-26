@@ -1,0 +1,24 @@
+/* Estilos básicos para el navbar */
+nav {
+  background-color: deeppink; /* Color de fondo del navbar */
+  padding: 1rem;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  color: white; /* Color de los enlaces */
+  text-decoration: none;
+  font: 1em/1.5em "Roboto", sans-serif;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Efecto hover en los enlaces */
+nav a:hover {
+  background-color: hotpink; /* Color de fondo al pasar el ratón */
+}
